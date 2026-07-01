@@ -1,5 +1,5 @@
 {
-  "installCommand": "corepack pnpm install --frozen-lockfile",
+  "installCommand": "corepack pnpm install --no-frozen-lockfile",
   "buildCommand": "corepack pnpm exec vite build",
   "outputDirectory": "dist/public",
   "rewrites": [
